@@ -8,7 +8,7 @@ export const init = () => {
   // Before you use the client, subscribe to the `'initialized'` event.
   client.on('initialized', () => {
     // Use the client.
-    console.log('ok');
+    console.log('initialized');
   });
 
   // To catch client initialization errors, subscribe to the `'initFailed'` event.
